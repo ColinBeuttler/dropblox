@@ -1,8 +1,20 @@
 import React, { useState } from 'react';
-import App from './App';
-import { ReactComponent } from '*.svg';
+import { ReactComponent } from 'Listarray';
+import { render } from '@testing-library/react';
 
-class listarray extends React.Component
+class listarray extends React.Component{
+    state = {
+        data: Array.from.listarray
+    }
+};
     
-
+render() 
+{
+    const{ data } = this.state
+return(
+    <listarray>
+        
+    </listarray>
+)
+}
 export default listarray;
