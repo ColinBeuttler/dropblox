@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
-import { ReactComponent } from 'Listarray';
+import { ReactComponent } from 'Listarray.js';
 import { render } from '@testing-library/react';
 
-class listarray extends React.Component{
+class listarray extends React.Component {
     state = {
         data: Array.from.listarray
     }
+    render() {
+        const { data } = this.state
+        return (
+            <div>
+
+            </div>
+        )
+    }
 };
-    
-render() 
-{
-    const{ data } = this.state
-return(
-    <listarray>
-        
-    </listarray>
-)
-}
+
+
 export default listarray;
