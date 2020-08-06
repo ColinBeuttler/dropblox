@@ -2,18 +2,22 @@ import React, { useState } from 'react';
 import './App.css';
 import { render } from '@testing-library/react';
 
-function listarray() {
-    render()
-    {
-       
+function Listarray() {
+    
         return (
-            <div className="list">
-                Enter Objects Here
+        <div className="list">
+            <h1>Enter Objects Here</h1>
+            <input type="file">
 
-            </div>
-        )
-    }
+            </input>
+
+        </div>
+    )
+    
+
+
+
 }
 
 
-export default listarray;
+export default Listarray;

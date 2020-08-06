@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import listarray from './Listarray'
+import Listarray from './listarray.js'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <listarray/>
+    <Listarray />
   </React.StrictMode>,
   document.getElementById('root')
 );
