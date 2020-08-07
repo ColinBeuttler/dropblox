@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Listarray from './Listarray'
+import Fileselector from './Fileselector'
+import Listfile from './Listfiles';
 
 
 
@@ -14,7 +15,9 @@ const App = () => {
          
         </p>
 
-        <Listarray />
+        <Fileselector />
+
+        <Listfile />
       
         <img src={logo} className="App-logo" alt="logo" />
         
@@ -26,7 +29,7 @@ const App = () => {
         >
           Learn React
         </a> */}
-        
+
       </header>
     </div>
   );

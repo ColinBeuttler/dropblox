@@ -1,9 +1,9 @@
 import React from 'react';
 
 
-const Listarray = () => {
+const Fileselector = () => {
     return (
-        <div className="Listarray">
+        <div className="Fileselector">
             <h1>Enter Objects Here</h1>
             <input  className="input" type="file">
 
@@ -13,4 +13,4 @@ const Listarray = () => {
     )
 };
 
-export default Listarray;
+export default Fileselector;
