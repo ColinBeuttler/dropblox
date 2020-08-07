@@ -8,7 +8,6 @@ import Listarray from './Listarray'
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Listarray />
   </React.StrictMode>,
   document.getElementById('root')
 );
