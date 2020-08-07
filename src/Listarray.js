@@ -1,20 +1,17 @@
-// import React, { useState } from 'react';
-// import { ReactComponent } from 'Listarray';
-// import { render } from '@testing-library/react';
+import React, { Component } from 'react';
 
-// class listarray extends React.Component {
-//     state = {
-//         data: Array.from.listarray
-//     }
-//     render() {
-//         const { data } = this.state
-//         return (
-//             <div>
+function Listarray() {
+    
+        return (
+        <div className="list">
+            <h1>Enter Objects Here</h1>
+            <input type="file">
 
-//             </div>
-//         )
-//     }
-// };
+            </input>
 
+        </div>
+    )
+    
+};
 
-// export default listarray;
+export default Listarray;
