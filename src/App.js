@@ -11,13 +11,13 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <p>
-          Welcome To Dropblox
+          Welcome To Filedrop
          
         </p>
 
         <Fileselector />
 
-        <Listfile />
+        {/* <Listfile /> */}
       
         <img src={logo} className="App-logo" alt="logo" />
         
