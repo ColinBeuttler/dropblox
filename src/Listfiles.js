@@ -1,13 +1,19 @@
 import React from 'react';
+import React, { useState } from 'react';
+import React, { Component } from 'react';
 
-let Listfile = () =>{
-    return(
-        <div>
-            <p>
-                file names here
-            </p>
-        </div>
-    )
-};
+class Listfile extends Component {
+    state = {
+        name: this.file
+    }
+    render() {
+        return (
+            <div> {this.state.file} </div>
+        )
+    }
+
+
+
+}
 
 export default Listfile
