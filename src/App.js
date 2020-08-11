@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Fileselector from './Fileselector'
@@ -6,33 +6,39 @@ import Listfile from './Listfiles';
 
 
 
-const App = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Welcome To Filedrop
-         
+class App extends Component {
+
+  state= {
+    file:[]
+  }
+
+  Render() {
+
+    return (
+      <div className="App">
+        <header className="App-header">
+          <p>
+            Welcome To Filedrop
+
         </p>
 
-        <Fileselector />
+          <Fileselector filename={this.state}/>
 
-        {/* <Listfile /> */}
-      
-        <img src={logo} className="App-logo" alt="logo" />
-        
-        {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
+          {/* <Listfile /> */}
 
-      </header>
-    </div>
-  );
+          <img src={logo} className="App-logo" alt="logo" />
+
+
+        </header>
+      </div>
+
+    )
+  }
 }
+
+
+
+
+
 
 export default App;

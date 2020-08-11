@@ -1,18 +1,19 @@
-import React from 'react';
-// import React, { useState } from 'react';
-// import React, { Component } from 'react';
+import React   from 'react';
 
 
-const Fileselector = (props) => {
-    return (
-        <div className="Fileselector">
-            <h1>Enter Objects Here</h1>
-            <input  className="input" type="file">
+const Fileselector = () => {
+     
+        return (
+            <div className="Fileselector">  
 
-            </input>
+                <input className="input" type="file" onChange={this.handleChange}>
 
-        </div>
-    )
+                </input>
+ 
+            </div>
+        )
+    
+
 };
 
 export default Fileselector;
