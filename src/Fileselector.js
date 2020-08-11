@@ -4,7 +4,7 @@ import React   from 'react';
 const Fileselector = () => {
      
         return (
-            <div className="Fileselector">  
+            <div className="Fileselector">  g
 
                 <input className="input" type="file" onChange={this.handleChange}>
 
