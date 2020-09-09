@@ -3,10 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-<<<<<<< HEAD
-=======
-import Listarray from './Fileselector'
->>>>>>> 2f0a8811ffd8eb0489cdb542297bacafe3f353a5
+
 
 ReactDOM.render(
   <React.StrictMode>

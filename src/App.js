@@ -2,17 +2,17 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Fileselector from './Containers/Fileselector'
-import Listfile from './Containers/Listfiles';
+// import Listfile from './Containers/Listfiles';
 
 
 
 class App extends Component {
 
-  state= {
-    file:[]
-  }
+  // state= {
+  //   file:[]
+  // }
 
-  Render() {
+  render() {
 
     return (
       <div className="App">
@@ -24,7 +24,7 @@ class App extends Component {
 
           <Fileselector filename={this.state}/>
 
-          <Listfile />
+          {/* <Listfile /> */}
 
           <img src={logo} className="App-logo" alt="logo" />
 
