@@ -4,7 +4,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+<<<<<<< HEAD
 ### `npm start`
+=======
+<<<<<<< HEAD
+### `npm start`
+=======
+### `yarn start`
+>>>>>>> 2f0a8811ffd8eb0489cdb542297bacafe3f353a5
+>>>>>>> 45905cf7a76d2e7daecc2c36098c81ccc34b1a2a
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -12,12 +20,28 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+<<<<<<< HEAD
 ### `npm test`
+=======
+<<<<<<< HEAD
+### `npm test`
+=======
+### `yarn test`
+>>>>>>> 2f0a8811ffd8eb0489cdb542297bacafe3f353a5
+>>>>>>> 45905cf7a76d2e7daecc2c36098c81ccc34b1a2a
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+<<<<<<< HEAD
 ### `npm run build`
+=======
+<<<<<<< HEAD
+### `npm run build`
+=======
+### `yarn build`
+>>>>>>> 2f0a8811ffd8eb0489cdb542297bacafe3f353a5
+>>>>>>> 45905cf7a76d2e7daecc2c36098c81ccc34b1a2a
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -27,7 +51,15 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+<<<<<<< HEAD
 ### `npm run eject`
+=======
+<<<<<<< HEAD
+### `npm run eject`
+=======
+### `yarn eject`
+>>>>>>> 2f0a8811ffd8eb0489cdb542297bacafe3f353a5
+>>>>>>> 45905cf7a76d2e7daecc2c36098c81ccc34b1a2a
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -63,6 +95,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
+<<<<<<< HEAD
 ### `npm run build` fails to minify
+=======
+<<<<<<< HEAD
+### `npm run build` fails to minify
+=======
+### `yarn build` fails to minify
+>>>>>>> 2f0a8811ffd8eb0489cdb542297bacafe3f353a5
+>>>>>>> 45905cf7a76d2e7daecc2c36098c81ccc34b1a2a
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

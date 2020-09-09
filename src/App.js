@@ -1,26 +1,44 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Fileselector from './Containers/Fileselector'
+// import Listfile from './Containers/Listfiles';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+
+
+class App extends Component {
+
+  // state= {
+  //   file:[]
+  // }
+
+  render() {
+
+    return (
+      <div className="App">
+        <header className="App-header">
+          <p>
+            Welcome To Filedrop
+
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+          <Fileselector filename={this.state}/>
+
+          {/* <Listfile /> */}
+
+          <img src={logo} className="App-logo" alt="logo" />
+
+
+        </header>
+      </div>
+
+    )
+  }
 }
+
+
+
+
+
 
 export default App;
